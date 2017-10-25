@@ -11,8 +11,8 @@ class Program
 static void Main(string[] args)
 {
 
-        var text = Console.ReadLine();
-        var pattern = Console.ReadLine();
+        var text = Console.ReadLine().ToLower();
+        var pattern = Console.ReadLine().ToLower();
 
         var count = 0;
         var index = -1;
